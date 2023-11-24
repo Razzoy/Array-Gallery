@@ -5,3 +5,43 @@ font-family: "Oswald", sans-serif; */
   margin: 0px;
   padding: 0px;
 }
+
+h1{
+  font-size: 8vw;
+  text-align: center;
+}
+
+p{
+  font-size: 3vw;
+  text-align: center;
+  margin: 0 0 1vw 0;
+}
+
+article{
+  display: flex;
+}
+
+#gallery{
+  display: grid;
+  gap: 1vw;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1vw;
+  position: relative;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+.singleImg{
+  margin: auto;
+  display: block;
+  width: 70vw;
+  height: 70vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
